@@ -153,7 +153,8 @@ input[type="submit"] {
     font-size: 30px;
     font-weight: 50px;
     cursor: pointer;
-    box-shadow: 0px 6px 4px rgba(12, 112, 242, 0.25);;
+    box-shadow: 0px 6px 4px rgba(12, 112, 242, 0.25);
+    ;
 }
 
 footer {
@@ -228,4 +229,62 @@ footer a:hover {
     text-align: center;
     margin-top: 50px;
     padding-bottom: 50px;
+}
+
+@media only screen and (max-width: 600px) {
+    #principal {
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #menu-sup {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .link-menu {
+        margin: 0%;
+        text-align: center;
+        padding: 5px;
+    }
+
+    #principal button {
+        margin: 0%;
+        align-items: center;
+    }
+
+    section h1 {
+        font-size: 30px;
+    }
+
+    section h2 {
+        font-size: 26px;
+        padding: 0px 5px 0px 8px;
+    }
+
+    form {
+        width: 95%;
+        font-size: 18px;
+    }
+
+    .checkbox-items label {
+        font-size: 14px;
+    }
+
+    #cadastrar {
+        width: 450px;
+
+    }
+
+    .linha1 {
+        flex-direction: column;
+        margin-bottom: 20px;
+        padding-bottom: 20px;
+    }
+
+    .endereco {
+        width: 90%;
+        margin-top: 20px;
+    }
 }
